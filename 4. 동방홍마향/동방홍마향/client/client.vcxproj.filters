@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{b460986e-2fd7-443f-bb75-a26b9510bbe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{891be951-9778-4c93-b781-ceafd16cf6fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj">
+      <UniqueIdentifier>{e4b168c3-b3d1-45a7-8756-4a67748a4096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager">
+      <UniqueIdentifier>{869cf47e-fe9f-4e77-8367-d97ef2fd22f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Texture">
+      <UniqueIdentifier>{18de7b54-ca7a-4b35-9068-7d22de44e072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene">
+      <UniqueIdentifier>{8faaaa89-e344-4d38-9892-470112a389da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Pattern">
+      <UniqueIdentifier>{9eb95af0-ae86-464f-841a-fb272d22b71d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Headers">
+      <UniqueIdentifier>{da82c745-bdb1-43a7-8b47-df47dea61dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\00.CollisionMgr">
+      <UniqueIdentifier>{17bf7a75-dd67-4a30-a1f7-d2dbc5b34780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\01.ObjMgr">
+      <UniqueIdentifier>{b0d32f7a-1b54-4cef-a88e-e355d77ffb05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\02.KeyMgr">
+      <UniqueIdentifier>{70028dc0-9f95-4752-845d-a08c418d327e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\04.TextureMgr">
+      <UniqueIdentifier>{710ac04e-d077-493a-9b0c-edf44b0cbda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\05.SceneMgr">
+      <UniqueIdentifier>{99e5ecbe-bc7b-45f1-8cb8-295eeabf34fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\06.DeviceMgr">
+      <UniqueIdentifier>{56989327-a2d9-4337-8750-818585b46d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Texture\00.SingleTexture">
+      <UniqueIdentifier>{cc2ac435-8bd8-42c5-8664-dad98809fdd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Texture\01.MultiTexture">
+      <UniqueIdentifier>{ba4cb90b-2711-45ed-b49c-24792d0f2623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\00.Logo">
+      <UniqueIdentifier>{ea6eeb31-9533-43c0-b42b-9df4bf95faab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\01.Intro">
+      <UniqueIdentifier>{2b7a6705-ce7f-4ed9-b50d-17443b4b6712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\02.Stage">
+      <UniqueIdentifier>{4a5a4c6e-ed74-4bdc-ac53-fdca4fca1f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\03.End">
+      <UniqueIdentifier>{ef386ea0-b7e7-4ce0-82e0-278c392f8b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\00.Player">
+      <UniqueIdentifier>{07559942-04f4-4875-914d-3e0d444211ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Monster">
+      <UniqueIdentifier>{53905351-3362-4319-b313-7208d3dfef7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\02.Bullet">
+      <UniqueIdentifier>{546cd516-a17e-44d1-bfe1-3bf50c5f6377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Collider">
+      <UniqueIdentifier>{1c8f3b67-9c7c-4e8d-9981-bd3b0fe182bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Collider\00.PointCollider">
+      <UniqueIdentifier>{2ec5d360-b25d-4aeb-9dc6-084198b5ec60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Collider\01.LineCollider">
+      <UniqueIdentifier>{2281dd90-cc19-4386-b16e-6b1a84d2139a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Collider\02.CircleCollider">
+      <UniqueIdentifier>{e8b20747-0833-4771-83e9-2de1e8c6a769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Collider\03.RectCollider">
+      <UniqueIdentifier>{9d656360-631f-492d-9206-f175533221c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\99.Mouse">
+      <UniqueIdentifier>{60c1be29-c9e1-4081-bc34-047e6288ec10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\02.Bullet\EnemyBullet">
+      <UniqueIdentifier>{a980aff1-614d-40e7-beda-a56a8b18ebc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Monster\Sin">
+      <UniqueIdentifier>{835c2b6e-590c-49c6-abcc-e70ab0bfd590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\Bomb">
+      <UniqueIdentifier>{f700bd98-2c50-4cf6-9301-ee9e69ab3220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Monster\lee">
+      <UniqueIdentifier>{a96f4ea0-21bd-47de-b2af-32d09f6f4a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\02.Bullet\EnemyBullet\sin">
+      <UniqueIdentifier>{aa66410c-9e57-4b94-880f-161b7028b8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\02.Bullet\EnemyBullet\Lee">
+      <UniqueIdentifier>{30589a81-e358-478d-8202-21d138375800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\02.Bullet\PBullet">
+      <UniqueIdentifier>{d1d2de0f-3007-4d09-962e-4583627e87cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\02.Bullet\PBullet\kfgd">
+      <UniqueIdentifier>{b697a797-5d37-475a-8eca-187fe09b77b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\02.Bullet\PBullet\lee">
+      <UniqueIdentifier>{877c4ed0-579a-4e46-a4da-bd66e34b124e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.UI">
+      <UniqueIdentifier>{65e05d2e-f1dd-4b52-b0a1-b78c3a9c6ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Monster\kfgd">
+      <UniqueIdentifier>{2572133a-7318-46fa-b24c-d9f810771c86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="client.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceMgr.h">
+      <Filter>02.Manager\06.DeviceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>02.Manager\05.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>04.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>02.Manager\02.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>02.Manager\01.ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01.Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>02.Manager\04.TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>03.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>03.Texture\00.SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>04.Scene\02.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>02.Manager\00.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>03.Texture\01.MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.Obj\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>01.Obj\02.Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>98.Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>05.Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>05.Collider\02.CircleCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="RectCollider.h">
+      <Filter>05.Collider\03.RectCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="PointCollider.h">
+      <Filter>05.Collider\00.PointCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="LineCollider.h">
+      <Filter>05.Collider\01.LineCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderOwner.h">
+      <Filter>05.Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>01.Obj\99.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="KPlayerBullet.h">
+      <Filter>01.Obj\02.Bullet\PBullet\kfgd</Filter>
+    </ClInclude>
+    <ClInclude Include="Flang.h">
+      <Filter>01.Obj\01.Monster\Sin</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>01.Obj\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="LMonster.h">
+      <Filter>01.Obj\01.Monster\lee</Filter>
+    </ClInclude>
+    <ClInclude Include="EBullet.h">
+      <Filter>01.Obj\02.Bullet\EnemyBullet\sin</Filter>
+    </ClInclude>
+    <ClInclude Include="BabyBullet.h">
+      <Filter>01.Obj\02.Bullet\EnemyBullet\Lee</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBullet.h">
+      <Filter>01.Obj\02.Bullet\EnemyBullet\Lee</Filter>
+    </ClInclude>
+    <ClInclude Include="FireworksBullet.h">
+      <Filter>01.Obj\02.Bullet\EnemyBullet\Lee</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowerBullet.h">
+      <Filter>01.Obj\02.Bullet\EnemyBullet\Lee</Filter>
+    </ClInclude>
+    <ClInclude Include="OddBullet.h">
+      <Filter>01.Obj\02.Bullet\EnemyBullet\Lee</Filter>
+    </ClInclude>
+    <ClInclude Include="ParentBullet.h">
+      <Filter>01.Obj\02.Bullet\EnemyBullet\Lee</Filter>
+    </ClInclude>
+    <ClInclude Include="SpreadBullet.h">
+      <Filter>01.Obj\02.Bullet\EnemyBullet\Lee</Filter>
+    </ClInclude>
+    <ClInclude Include="ZigZagBullet.h">
+      <Filter>01.Obj\02.Bullet\EnemyBullet\Lee</Filter>
+    </ClInclude>
+    <ClInclude Include="GuideBullet.h">
+      <Filter>01.Obj\02.Bullet\PBullet\lee</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerShield.h">
+      <Filter>01.Obj\02.Bullet\PBullet\lee</Filter>
+    </ClInclude>
+    <ClInclude Include="HpOwner.h">
+      <Filter>06.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="BossUI.h">
+      <Filter>06.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemyPattern.h">
+      <Filter>01.Obj\01.Monster\kfgd</Filter>
+    </ClInclude>
+    <ClInclude Include="KRemilliaScarlet.h">
+      <Filter>01.Obj\01.Monster\kfgd</Filter>
+    </ClInclude>
+    <ClInclude Include="KRmilliaPattern.h">
+      <Filter>01.Obj\01.Monster\kfgd</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceMgr.cpp">
+      <Filter>02.Manager\06.DeviceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>02.Manager\05.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>04.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>02.Manager\02.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>02.Manager\01.ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01.Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>02.Manager\04.TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>03.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>03.Texture\00.SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>04.Scene\02.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>02.Manager\00.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>03.Texture\01.MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.Obj\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>01.Obj\02.Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>05.Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>05.Collider\02.CircleCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="RectCollider.cpp">
+      <Filter>05.Collider\03.RectCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="PointCollider.cpp">
+      <Filter>05.Collider\00.PointCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="LineCollider.cpp">
+      <Filter>05.Collider\01.LineCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>01.Obj\99.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="KPlayerBullet.cpp">
+      <Filter>01.Obj\02.Bullet\PBullet\kfgd</Filter>
+    </ClCompile>
+    <ClCompile Include="Flang.cpp">
+      <Filter>01.Obj\01.Monster\Sin</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>01.Obj\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="LMonster.cpp">
+      <Filter>01.Obj\01.Monster\lee</Filter>
+    </ClCompile>
+    <ClCompile Include="EBullet.cpp">
+      <Filter>01.Obj\02.Bullet\EnemyBullet\sin</Filter>
+    </ClCompile>
+    <ClCompile Include="BabyBullet.cpp">
+      <Filter>01.Obj\02.Bullet\EnemyBullet\Lee</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBullet.cpp">
+      <Filter>01.Obj\02.Bullet\EnemyBullet\Lee</Filter>
+    </ClCompile>
+    <ClCompile Include="FireworksBullet.cpp">
+      <Filter>01.Obj\02.Bullet\EnemyBullet\Lee</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowerBullet.cpp">
+      <Filter>01.Obj\02.Bullet\EnemyBullet\Lee</Filter>
+    </ClCompile>
+    <ClCompile Include="OddBullet.cpp">
+      <Filter>01.Obj\02.Bullet\EnemyBullet\Lee</Filter>
+    </ClCompile>
+    <ClCompile Include="ParentBullet.cpp">
+      <Filter>01.Obj\02.Bullet\EnemyBullet\Lee</Filter>
+    </ClCompile>
+    <ClCompile Include="SpreadBullet.cpp">
+      <Filter>01.Obj\02.Bullet\EnemyBullet\Lee</Filter>
+    </ClCompile>
+    <ClCompile Include="ZigZagBullet.cpp">
+      <Filter>01.Obj\02.Bullet\EnemyBullet\Lee</Filter>
+    </ClCompile>
+    <ClCompile Include="GuideBullet.cpp">
+      <Filter>01.Obj\02.Bullet\PBullet\lee</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerShield.cpp">
+      <Filter>01.Obj\02.Bullet\PBullet\lee</Filter>
+    </ClCompile>
+    <ClCompile Include="BossUI.cpp">
+      <Filter>06.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="KRemilliaScarlet.cpp">
+      <Filter>01.Obj\01.Monster\kfgd</Filter>
+    </ClCompile>
+    <ClCompile Include="KRmilliaPattern.cpp">
+      <Filter>01.Obj\01.Monster\kfgd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Default</Filter>
+    </Image>
+    <Image Include="client.ico">
+      <Filter>Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="client.rc">
+      <Filter>Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

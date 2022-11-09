@@ -1,0 +1,61 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (client.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  ZigZagBullet.cpp
+  TextureMgr.cpp
+c:\users\ghrud\onedrive\바탕 화면\team_final\client\texturemgr.cpp(43): warning C4003: 'FAILED_CHECK_RETURN' 매크로의 실제 매개 변수가 부족합니다.
+c:\users\ghrud\onedrive\바탕 화면\team_final\client\texturemgr.cpp(51): warning C4003: 'FAILED_CHECK_RETURN' 매크로의 실제 매개 변수가 부족합니다.
+  Texture.cpp
+  Stage.cpp
+  SpreadBullet.cpp
+  Flang.cpp
+c:\users\ghrud\onedrive\바탕 화면\team_final\client\flang.cpp(374): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SingleTexture.cpp
+  SceneMgr.cpp
+  Scene.cpp
+  RectCollider.cpp
+  PointCollider.cpp
+  PlayerShield.cpp
+  Player.cpp
+  ParentBullet.cpp
+  OddBullet.cpp
+c:\users\ghrud\onedrive\바탕 화면\team_final\client\oddbullet.cpp(64): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\ghrud\onedrive\바탕 화면\team_final\client\oddbullet.cpp(69): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ObjMgr.cpp
+  Obj.cpp
+  MultiTexture.cpp
+c:\users\ghrud\onedrive\바탕 화면\team_final\client\multitexture.cpp(68): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Mouse.cpp
+  MainGame.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  LMonster.cpp
+  LineCollider.cpp
+  KRmilliaPattern.cpp
+c:\users\ghrud\onedrive\바탕 화면\team_final\client\krmilliapattern.cpp(378): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\ghrud\onedrive\바탕 화면\team_final\client\krmilliapattern.cpp(378): warning C4244: '초기화 중': 'int'에서 'const float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\ghrud\onedrive\바탕 화면\team_final\client\krmilliapattern.cpp(392): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\ghrud\onedrive\바탕 화면\team_final\client\krmilliapattern.cpp(392): warning C4244: '초기화 중': 'int'에서 'const float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  KRemilliaScarlet.cpp
+  KPlayerBullet.cpp
+  KeyMgr.cpp
+  GuideBullet.cpp
+  FlowerBullet.cpp
+  FireworksBullet.cpp
+c:\users\ghrud\onedrive\바탕 화면\team_final\client\fireworksbullet.cpp(62): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\ghrud\onedrive\바탕 화면\team_final\client\fireworksbullet.cpp(69): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  EBullet.cpp
+  DeviceMgr.cpp
+  CollisionMgr.cpp
+  Collider.cpp
+  client.cpp
+  CircleCollider.cpp
+  Bullet.cpp
+  BossUI.cpp
+c:\users\ghrud\onedrive\바탕 화면\team_final\client\bossui.cpp(68): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Bomb.cpp
+  BasicBullet.cpp
+  BabyBullet.cpp
+  코드를 생성하고 있습니다...
+  LINK : C:\Users\ghrud\OneDrive\바탕 화면\TEAM_FINAL\Debug\s.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+  client.vcxproj -> C:\Users\ghrud\OneDrive\바탕 화면\TEAM_FINAL\Debug\s.exe
+  client.vcxproj -> C:\Users\ghrud\OneDrive\바탕 화면\TEAM_FINAL\Debug\s.pdb (Full PDB)

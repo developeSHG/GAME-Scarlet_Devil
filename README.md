@@ -1,4 +1,6 @@
 # GAME-Scarlet_Devil
+
+<img width="100%" src="https://user-images.githubusercontent.com/79896868/254759494-f4244828-3ebe-49f4-97f5-891367da8a2c.png"/>
 <h3>[DirectX 2D - Individual Project] 동방홍마향</h3>
 
 <b>동영상(Client)</b>    : https://www.youtube.com/watch?v=5L_VdyRLQ68
